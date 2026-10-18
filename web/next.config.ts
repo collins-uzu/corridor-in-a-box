@@ -37,6 +37,12 @@ const nextConfig: NextConfig = {
   // reach — Turbopack fails the build with "Can't resolve
   // '../../contracts/deployments.json'".
   outputFileTracingRoot: path.join(import.meta.dirname, ".."),
+  transpilePackages: [
+    "@corridor/engine",
+    "@corridor/adapter-kit",
+    "@corridor/manifest",
+    "@corridor/types",
+  ],
   poweredByHeader: false,
   async headers() {
     return [
