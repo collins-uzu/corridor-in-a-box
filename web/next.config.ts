@@ -41,6 +41,7 @@ const nextConfig: NextConfig = {
     "@corridor/engine",
     "@corridor/adapter-kit",
     "@corridor/manifest",
+    "@corridor/probe",
     "@corridor/types",
   ],
   poweredByHeader: false,
